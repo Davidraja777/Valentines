@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    font-family: "Pacifico";
+}
+
+.pacifico-regular {
+    font-family: "Pacifico, cursive";
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.neon-sign {
+    text-align: center;
+}
+  
+.neon {
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+#top-text {
+    text-shadow:
+      0 0 5px #ff00ff,
+      0 0 15px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 45px #ff1493,
+      0 0 70px #ff1493;
+    margin-bottom: 0; /* Remove bottom margin if any */
+}
+
+#bottom-text {
+    text-shadow:
+      0 0 5px #ff00ff,
+      0 0 15px #ff00ff,
+      0 0 30px #ff00ff,
+      0 0 45px #ff1493,
+      0 0 70px #ff1493;
+    margin-top: 0; /* Remove bottom margin if any */
+}
+  
+.options {
+    margin-top: 20px;
+}
+  
+#yes, #no {
+    font-size: 4rem;
+    cursor: pointer;
+    margin: 20px 10px;
+    user-select: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.options {
+    text-shadow:
+      0 0 5px #ff69b4,
+      0 0 15px #ff69b4,
+      0 0 30px #ff69b4,
+      0 0 45px #ff1493,
+      0 0 70px #ff1493;
+    margin-top: 20px; /* Adjust as needed */
+}
+  
+#yes {
+    text-shadow:
+      0 0 5px #ff69b4,
+      0 0 15px #ff69b4,
+      0 0 30px #ff69b4,
+      0 0 45px #ff1493,
+      0 0 70px #ff1493;
+}
+  
+#no {
+    text-shadow:
+      0 0 5px #ff4500,
+      0 0 15px #ff4500,
+      0 0 30px #ff4500,
+      0 0 45px #ff4500,
+      0 0 70px #ff4500;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    .neon {
+        font-size: 3rem;
+    }
+
+    #yes, #no {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (mobile devices) */
+    .neon {
+        font-size: 2rem;
+    }
+
+    #yes, #no {
+        font-size: 2rem;
+    }
+}
+
